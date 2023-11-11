@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(184, 250, 241);
+    margin:  0;
+}
+    .logo1{
+        width: 70%; 
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        border-bottom: 2px solid #0206fd4b;
+        box-sizing: border-box;
+
+    }
+    .div_menu{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .logo2{
+            width: 80px;
+            height: 80px;
+             margin-left: 5px; 
+    }
+    
+    
+    .lista {
+        list-style: none !important;
+        justify-content: space-around;
+       
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+        font-family: fantasy;
+        background-color: #f6faf9;
+        margin-top: auto;
+        border-bottom: 2px solid #0206fd4b;
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .lista li {
+    display: inline-block;
+    flex-direction: column;
+    padding: 1px;
+    text-align: center;
+    }
+
+.lista ul{
+    width: 500px;
+    display: block;
+    }
+    p{
+        text-align: center;
+    }
+    
+   h2{
+    text-align: center;
+   }
+
+   h3{
+    text-align: center;
+   }
+   h4{
+    text-align: center;
+   }
