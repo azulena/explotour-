@@ -61,7 +61,10 @@ body {
     width: 50%;
     background-color: rgb(26, 20, 48);
     color: aqua;
-    
+    cursor: pointer;
+    }
+    button:hover {
+        background: #2802ff;
     }
 
     input[type="text"],
