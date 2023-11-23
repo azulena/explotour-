@@ -1,96 +1,121 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(fondo.jpg);   
+    background: url(fondo.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-  
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 80vh; 
-    }
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
-    .imagen2{
+.imagen2 {
+    width: 100%;
+    height: auto;
+}
 
-        width: 100%;
-        height: 80%;
-       font-display: center;
-       justify-content: center;
-    }
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-      
-    .mitad{
-        width: 50%;
-        height: 50%;
-    }
+.contenedor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 
-    
-    
-    .contenido{
-        display: flex;
-        width: 80%;
-        padding-top: 100px;
-    }
+.inicio-estilo {
+    font-style: italic;
+    background-color: rgba(2, 247, 255, 0.8);
+    border: 1px solid #2802ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 255, 255);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
 
-    .contenedor {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-
-    .inicio-estilo {
-        font-style: italic;
-        background-color: rgba(2, 247, 255, 0.8);
-        border: 1px solid #2802ff;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 0 10px rgb(0, 255, 255);
-        max-width: 300px;
-        width: 100%;
-        text-align: center;
-    }
-
-    button {
-        text-align: center;
-    border-radius: 10%;
-    width: 50%;
+button {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
     background-color: rgb(26, 20, 48);
     color: aqua;
     cursor: pointer;
-    }
-    button:hover {
-        background: #2802ff;
-    }
+}
 
-    .boton{
-        background-color: rgb(26, 20, 48);
-    }
+button:hover {
+    background: #2802ff;
+}
 
-    .boton:hover{
-     background-color: rgb(0, 3, 155);
-    }
+.boton {
+    background-color: rgb(26, 20, 48);
+}
 
-    input[type="text"],
+.boton:hover {
+    background-color: rgb(0, 3, 155);
+}
+
+input[type="text"],
 input[type="password"] {
     border-radius: 5px;
     font-size: 1em;
-    padding: 5px;
+    padding: 8px;
     width: 100%;
     background-color: rgb(127, 255, 212);
-   
 }
 
 h1 {
-    font-style:i;
+    font-style: italic;
     color: rgb(1, 0, 34);
     margin-top: 20px;
     font-size: 2em;
     text-align: center;
-     font-weight: bold;
+    font-weight: bold;
 }
 
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 769px) {
+    .contenido {
+        flex-direction: row; 
+    }
+
+    .imagen2 {
+        order: 2; 
+        margin-top: 0; 
+    }
+}
+.boton a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+    border-radius: 10%; 
+    background-color: rgb(26, 20, 48);
+    color: aqua;
+    cursor: pointer;
+}
+
+.boton a:hover,
+.boton a:focus {
+    background-color: rgb(0, 3, 155);
+    outline: none; 
+}
+
+.boton a:active {
+    transform: translateY(2px); 
+}
