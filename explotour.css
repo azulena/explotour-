@@ -137,3 +137,49 @@ footer {
 
     
 }
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    width: 50pc;
+  }
+  
+  input[type="text"],
+  textarea {
+    background-color: aquamarine;
+    width: 40pc;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(14, 235, 125);
+    border-bottom: 2px solid #0206fd4b;
+    box-shadow: 0 0 20px rgb(17, 0, 255);
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: aqua;
+  }
+  
+  /* Estilos de los comentarios */
+  #comments {
+    margin-top: 20px;
+  }
+  
+  #comments div {
+    margin-bottom: 10px;
+  }
+  
