@@ -110,7 +110,7 @@ h1 {
     cursor: pointer;
 }
 
-.boton a:hover,
+
 .boton a:focus {
     background-color: rgb(0, 3, 155);
     outline: none; 

@@ -113,4 +113,13 @@ body {
         background-color: rgb(0, 3, 155);
        }
  
-       
+       @media only screen and (min-width: 769px){
+        .contenido{
+            flex-direction: row;
+        }
+
+        .imagen2{
+            order: 2; 
+            margin-top: 0;
+        }
+       }
